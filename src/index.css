@@ -1,0 +1,140 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap');
+
+*{
+  padding: 0%;
+  margin: 1%;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2vh;
+  
+
+}
+.navbar{
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  /* line-height: 26px; */
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0.7px solid gray !important;
+  background-color: #9A9A9A!important;
+  margin-bottom: 0px !important;
+
+}
+.nav-link {
+  font-weight: 400;
+}
+.navbar-brand{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  align-items: center;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.active{
+ border-bottom: 2px solid black;
+}
+
+/* //footer */
+.footer{
+  color: white;
+  background-color: black;
+  padding: 25px;
+}
+.footer a{
+  color: #ffff;
+  text-decoration: none;
+  padding: 10px;
+
+}
+.footer a:hover{
+  color: bisque;
+  border-bottom: 1px solid #ffff;
+}
+/* page not found */
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+
+}
+.pnf-btn{
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 10px;
+}
+/* ============ */
+/* register */
+/* .register{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+} */
+
+/* ===========//products ===========*/
+.product-link{
+  text-decoration: none !important;
+  color: black !important;;
+}
+/* anime.css */
+#animate{
+  display: inline-block;
+  margin:  20px;
+
+
+  animation:slideInUp; /*  slideOutRight referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
+}
+.name{
+  color: #005f73;
+  font-weight: 700;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  top:50%;
+  left:50%;
+  
+}
+#tech{
+  background-color: #ede0d4;
+}
+.form-container form {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 20px;
+  background-color: #fff;
+}
+.navbar-nav{
+
+
+  padding-left: 10%;
+  padding-right: 10%;
+}

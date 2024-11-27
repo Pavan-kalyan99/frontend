@@ -1,0 +1,14 @@
+.form-cointainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    background-image: linear-gradient(0deg,rgb(213, 225, 171),rgb(238, 160, 160));
+    /* height: 70vh;
+    margin: 20px;
+    padding: 20px; */
+    min-height: 70vh;
+
+}
+
